@@ -7,6 +7,6 @@ public abstract class XMLParser {
     public Document loadXMLDocument(String path) {
 
         return null;
-        Ż
+
     }
 }
