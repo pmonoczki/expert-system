@@ -1,9 +1,10 @@
 package com.codecool;
 
+import java.util.List;
+
 public abstract class Value {
 
-    public boolean getSelectionType() {
+    public abstract boolean getSelectionType();
 
-        return false;
-    }
+    public abstract List<String> getInputPatterns();
 }
