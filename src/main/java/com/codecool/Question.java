@@ -5,7 +5,7 @@ public class Question {
 
     private String id;
 
-    private String question–
+    private String question;
 
     public String getId() {
         return id;

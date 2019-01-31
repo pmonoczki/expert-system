@@ -2,16 +2,19 @@ package com.codecool;
 
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class RuleParser extends XMLParser {
 
-    public RuleRepository getRuleRepository() {
+    public RuleRepository getRuleRepository() throws IOException, SAXException, ParserConfigurationException {
         RuleRepository rr = new RuleRepository();
 
-        Element root = super.loadXMLDocument();
+        Element root = super.loadXMLDocument("rulex.xml");
         for (int i = 0; i < root.getElementsByTagName("Rule").getLength(); i++) {
             Node n = root.getElementsByTagName("Rule").item(i);
 

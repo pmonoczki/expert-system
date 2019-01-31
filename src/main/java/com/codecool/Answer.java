@@ -23,6 +23,8 @@ public class Answer {
                     return value.getSelectionType();
             }
         }
+
+        return false;
         //TODO: what if the input is not exist
     }
 }

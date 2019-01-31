@@ -1,6 +1,5 @@
 package com.codecool;
 
-import javafx.css.Rule;
 
 import java.util.ArrayList;
 import java.util.Iterator;
