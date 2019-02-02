@@ -15,4 +15,8 @@ public class FactRepository {
     public Iterator getIterator() {
         return this.facts.iterator();
     }
+
+    public void addFact(Fact fact) {
+        this.facts.add(fact);
+    }
 }
