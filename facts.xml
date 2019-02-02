@@ -1,0 +1,11 @@
+<Facts>
+    <Fact id="tesla">
+        <Description value="Tesla Model S"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">true</Eval>
+        </Evals>
+    </Fact>
+</Facts>
