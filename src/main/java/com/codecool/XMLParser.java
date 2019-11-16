@@ -12,6 +12,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ *
+ */
 public abstract class XMLParser {
 
     public Element loadXMLDocument(String path) throws ParserConfigurationException, IOException, SAXException {
